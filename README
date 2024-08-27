@@ -1,0 +1,7 @@
+These scripts are for when the scanner didn't create the RMS image by default for whatever reason. Together, they create the RMS and get it into the correct session within the flywheel project so we can do what we need with it.
+
+  1. download_t1vnav_echoes.py finds and downloads the 4 echos of the T1 vNavs that are distortion corrected to a local directory (that you specify)
+  2. create_rms.py creates an RMS nii image and accompanying json from the echoes locally
+  3. upload_rms.py uploads the RMS nii image and accompanying json to flywheel group/project/subject/session
+
+  Or, use can set variables and use download_create_upload_rms.sh as a wrapper for all 3 steps
