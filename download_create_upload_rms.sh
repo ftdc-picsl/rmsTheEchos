@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wrkDir=/project/ftdc_misc/colm/rmsWrkDir
-group=pennftdcenter
-project=HUP6
+wrkDir="/project/ftdc_misc/colm/rmsWrkDir"
+group="pennftdcenter"
+project="HUP6"
 
 if [[ $# != 2 ]] ; then
     echo "USAGE: ./download_create_upload_rms.sh <subjectLabel> <sessionLabel> "

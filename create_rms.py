@@ -21,8 +21,8 @@ if (args_count := len(sys.argv)) != 6:
 subLabel = sys.argv[1]
 sesLabel = sys.argv[2]
 wrkDir = sys.argv[3]
-group = sys.arg[4]
-projectLabel =  sys.arg[5]
+group = sys.argv[4]
+projectLabel =  sys.argv[5]
 
 # assemble session level directory
 outDir = wrkDir + "/" + subLabel + "/" + sesLabel + "/"
